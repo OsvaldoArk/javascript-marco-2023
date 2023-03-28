@@ -33,6 +33,9 @@ Remover o endereço do repositório
 Enviando os dados para o repositório remoto
 	- git push origin (nome da branch)
 
+Trazer modificações que estão no repositório remoto
+	- git pull (url da origem)
+
 Criando uma nova branch
 	- git branch “nome da branch”
 
