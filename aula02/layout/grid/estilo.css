@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height:10vh;
+    width:100vw;
+    grid-area: cabecalho;
+    background-color: blue;
+    display: flex;
+}
+
+.logo{
+    width: 30vw;
+}
+
+.nav{
+    width:70vw;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+ul{
+    height: 10vh;
+    list-style-type: none;
+    background-color: #ccc;
+}
+
+.lista{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 10vh 5vh 75vh 10vh;
+    grid-template-areas: 
+    "cabecalho cabecalho"
+    "linha linha"
+    "menu-lateral artigo"
+    "rodape rodape"
+    ;
+}
+
+.linha{
+    color:aliceblue;
+    text-align: center;
+    background-color: crimson;
+    grid-area: linha;
+}
+
+.article{
+    grid-area: artigo;
+    background-color: orange;
+}
+
+.aside{
+    grid-area: menu-lateral;
+    background-color: cadetblue;
+}
+
+.footer{
+    grid-area: rodape;
+    background-color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        display:grid;
+        grid-template-columns: 20vw 80vw;
+        grid-template-rows: 10vh 5vh 37vh 37vh 10vh;
+        grid-template-areas: 
+        "cabecalho cabecalho"
+        "linha linha"
+        "menu-lateral menu-lateral"
+        "artigo artigo"
+        "rodape rodape"
+        ;
+    }
+  }

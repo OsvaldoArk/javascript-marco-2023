@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        h1{
+            color:gold;
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="titulo">
+            <h1 style="color:red" id="titulo-principal">Revisão HTML</h1>
+            <h3 class="subtitulo">Aprendendo as tags HTML</h3>
+            <audio id="musica-fundo" hidden controls="controls" loop>
+                <source src="../res/audio/gu10535.mp3" type="audio/mp3" />
+                seu navegador não suporta HTML5
+            </audio>
+        </div>
+        <nav>
+            <ul class="barra-navegacao">
+                <li>
+                    <p>
+                        <a href="">
+                            início
+                        </a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="">
+                            sobre nós
+                        </a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="">
+                            fotos
+                        </a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="">
+                            fale conosco
+                        </a>
+                    </p>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section id="inicio">
+                <video id="video-principal" controls>
+                    <source src="../res/video/Cold2520Winter2520Dream-HD3_1.mp4.mp4" type="video/mp4">
+
+                    <p>Your browser doesn't support HTML5 video. Here is a 
+                        <a href="../res/video/Cold2520Winter2520Dream-HD3_1.mp4.mp4">link to the video</a> instead.
+                    </p>
+                  </video>
+            </section>
+            <section id="sobre-nos">
+                <header>
+                    <h3>Sobre nós </h3>
+                    <h4>14 de março de 2023</h4>
+                </header>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem incidunt eveniet cupiditate cum voluptates earum ratione at ex ipsum id sunt dolorum molestias fugiat similique adipisci distinctio, sequi repudiandae!
+                </p>
+                <p>
+                    Fugiat tenetur vero quis modi, iure dolorem saepe odit ab non facere velit eius. Nobis quis eveniet beatae minus error. Eos ea velit nesciunt laboriosam provident eius pariatur perspiciatis libero.
+                </p>
+                <p>
+                    Repellat cupiditate hic enim quisquam. Soluta reprehenderit adipisci, impedit inventore minus officiis! Molestias, maxime? Harum deserunt veniam facilis ullam dolorem quasi nulla labore veritatis! Provident odio nisi iure sint quo!
+                </p>
+                <p>
+                    Quam esse nesciunt mollitia! Tempore omnis eveniet quam suscipit ea necessitatibus perferendis accusantium quidem animi aspernatur, cupiditate eos odit reprehenderit, ipsa quia quibusdam nesciunt modi velit commodi. Et, voluptatem voluptatibus.
+                </p>
+                <p>
+                    Nihil, id nisi consequatur vero repellendus facere doloremque, veritatis qui, natus fugiat eos est reiciendis tenetur ex assumenda ratione voluptates odit velit! Soluta repellendus sapiente sed vitae nobis natus facilis.
+                </p>
+            </section>
+            <hr/>
+            <h3 class="titulo-central">Álbum de fotos</h3>
+            <section id="fotos">
+                <div class="album">
+                    <figure>
+                        <img class="imagem-album" src="../res/imagens/pexels-kate-andreeshcheva-15868531.jpg" alt="">
+                        <figcaption>café da manhã</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imagem-album" src="../res/imagens/pexels-kate-andreeshcheva-15868531.jpg" alt="">
+                        <figcaption>café da manhã</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imagem-album" src="../res/imagens/pexels-kate-andreeshcheva-15868531.jpg" alt="">
+                        <figcaption>café da manhã</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imagem-album" src="../res/imagens/pexels-kate-andreeshcheva-15868531.jpg" alt="">
+                        <figcaption>café da manhã</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imagem-album" src="../res/imagens/pexels-kate-andreeshcheva-15868531.jpg" alt="">
+                        <figcaption>café da manhã</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imagem-album" src="../res/imagens/pexels-kate-andreeshcheva-15868531.jpg" alt="">
+                        <figcaption>café da manhã</figcaption>
+                    </figure>
+
+                </div>
+            </section>
+            <hr/>
+            <section id="fale-conosco">
+                <form action="#">
+                    <label>
+                        nome:
+                        <input type="text" name="" id="">
+                    </label>
+                    <label>
+                        nome:
+                        <input type="email" name="" id="">
+                    </label>
+                    <select name="estado" id="">
+                        <option value="CE">Ceará</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="BA">Bahia</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="SE">Sergipe</option>
+                    </select>
+                    <div class="">
+                        <label>
+                            <input type="radio" name="escolaridade" id="">
+                            fundamental
+                        </label>
+                        <label>
+                            <input type="radio" name="escolaridade" id="">
+                            médio
+                        </label>
+                        <label>
+                            <input type="radio" name="escolaridade" id="">
+                            técnico
+                        </label>
+                        <label>
+                            <input type="radio" name="escolaridade" id="">
+                            superior
+                        </label>
+                        <label>
+                            <input type="radio" name="escolaridade" id="">
+                            pós
+                        </label>
+                    </div>
+                    <div>
+                        conhecimentos:
+                        <label>
+                            Frontend
+                            <input type="checkbox" name="" id="">
+                        </label>
+                        <label>
+                            Backend
+                            <input type="checkbox" name="" id="">
+                        </label>
+                        <label>
+                            Banco de dados
+                            <input type="checkbox" name="" id="">
+                        </label>
+                    </div>
+                </form>
+            </section>
+        </article>
+        <aside>
+
+        </aside>
+    </main>
+</body>
+</html>

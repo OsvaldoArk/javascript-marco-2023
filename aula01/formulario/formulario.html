@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="#">
+        <label>nome:
+            <input type="text" name="nome" id="">
+        </label>
+        <br/>
+        <label>
+            idade:
+            <input type="number" name="idade">
+        </label>
+        <br/>
+        <label>
+            data de nascimento:
+            <input type="date" name="data-de-nascimento" id="">
+        </label>
+        <br/>
+        <label>
+            telefone:
+            <input type="text" size="11" maxlength="11" name="telefone" id="">
+        </label>
+        <p>conhecimentos:</p>
+        <label>
+            html
+            <input type="checkbox" name="" id="">
+        </label>
+        <label>
+            css
+            <input type="checkbox" name="" id="">
+        </label>
+        <label>
+            javascript
+            <input type="checkbox" name="" id="">
+        </label>
+        <label>
+            mysql
+            <input type="checkbox" name="" id="">
+        </label>
+        <br>
+        <p>senioridade:</p>
+        <label>
+            Júnior
+            <input type="radio" name="senioridade" id="" checked>
+        </label>
+        <label>
+            Pleno
+            <input type="radio" name="senioridade" id="">
+        </label>
+        <label>
+            Sênior
+            <input type="radio" name="senioridade" id="">
+        </label>
+        <br>
+        <select name="estado" id="">
+            <option value="0" disabled selected>selecione o seu estado</option>
+            <optgroup label="nordeste">
+
+                <option value="ce">ceará</option>
+                <option value="ma">maranhão</option>
+                <option value="rn">rio grande do norte</option>
+            </optgroup>
+            <optgroup label="sudeste">
+                <option value="rj">rio de janeiro</option>
+                <option value="sp">são paulo</option>
+            </optgroup>
+            <optgroup label="sul">
+                <option value="sc">santa catarina</option>
+            </optgroup>
+            <optgroup label="centro-oeste">
+                <option value="df">distrito federal</option>
+            </optgroup>
+        </select>
+        <br/>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br/>
+        <input type="email" name="" id="">
+        <button type="submit">enviar</button>
+    </form>
+</body>
+</html>
