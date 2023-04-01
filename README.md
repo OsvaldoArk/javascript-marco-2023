@@ -45,4 +45,9 @@ Trocar para outra branch
 Criar e já trocar para a branch nova
 	- git checkout -b “nome da branch”
 
+Mergear nova branch no tronco principal (main)
+	- git merge "nome da branch"
+
+Comparar duas branchs
+	- git diff "branch que você quer comparar"
 
